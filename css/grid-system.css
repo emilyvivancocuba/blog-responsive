@@ -14,13 +14,12 @@
   margin-left: auto;
 }
 .contenedor {
-  width: 960px;
-  margin: 0px auto;
-  padding-right: 14px;
-  padding-left: 14px;
+ 	width: 960px;
+ 	padding-right: 14px;
+ 	padding-left: 14px;
+ 	margin: 0px auto;
 }
 .row {
-	width: 100%;
 	margin-left: -14px;
 	margin-right: -14px;
 }

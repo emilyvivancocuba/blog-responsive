@@ -1,7 +1,7 @@
 /* CODIGO */
 body{
 	font-family: 'Open Sans', sans-serif;
-	/*background-color: #2D2735;*/
+	background-color: #2D2735;
 	color: white;
 	margin: 0;
 	padding: 0;
@@ -12,12 +12,6 @@ a{
 }
 .bg-lightblack{
 	background-color: #1C1821;
-}
-.pd-0{
-	padding: 0px;
-}
-.mg-0{
-	margin: 0px;
 }
 .w-100{
 	width: 100%;
@@ -40,7 +34,7 @@ nav li{
 	display: inline-block;
 	margin-top: 21px;
 }
-nav{
+header nav{
 	float: right;
 	margin-top: 7px;
 }
@@ -56,12 +50,14 @@ nav li a:hover{
 	background: linear-gradient(#A681B3, #543382);
 	border-radius: 5px;
 }
+.portada{
+	padding-top: 124px;
+	padding-bottom: 42px;
+}
 .hero{
-	margin-top: 124px;
-	margin-bottom: 42px;
 	background-image: url(../image/header-image.jpg);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	padding-top: 96px;
 	padding-bottom: 96px;
 }
@@ -89,6 +85,9 @@ nav li a:hover{
 	margin-left: 165px;
 	margin-right: 165px;
 }
+.flowers{
+	margin-bottom: 49px;
+}
 .flowers h4{
 	font-size: 20px;
 	padding-top: 14px;
@@ -98,13 +97,91 @@ nav li a:hover{
 	padding-top: 14px;
 	padding-bottom: 35px;
 }
-.flores{
-	padding-bottom: 49px;
+.input{
+	text-align: left;
+	padding: 28px;
+	margin-bottom: 14px;
+}
+input{
+	background-color: #2D2735;
+	border: none;
+	width: 100%;
+	padding: 21px 27px;
+	font-size: 16px;
+	color: #99A4A9;
+}
+.input, input{
+	border-radius: 7px;
 }
 .iframe{
 	width: 100%;
 	height: 281px;
 	border: none;
+}
+.txt-about{
+	font-size: 20px;
+	padding-bottom: 7px;
+}
+.aboutme{
+	padding-bottom: 21px;
+}
+.aboutme p{
+	padding-top: 14px;
+	padding-bottom: 21px;
+	text-align: justify;
+}
+.socialnet{
+	text-align: left;
+}
+.aboutme p, .socialnet{
+	padding-left: 14px;
+	padding-right: 14px;
+}
+.socialnet a{
+	background-color: #2D2735;
+	border-radius: 100%;
+	display: inline-block;
+	margin-right: 14px;
+	text-align: center;
+	color: #FFF;
+	font-size: 18px;
+}
+a.facebook:hover{
+	background-color: #3B5998;
+}
+a.instagram:hover{
+	background-color: white;
+	color: black;
+}
+a.twitter:hover{
+	background-color: #55ACEE;
+}
+a.youtube:hover{
+	background-color: #E12B28;
+	color: black;
+}
+.socialnet a i{
+	padding: 14px;
+}
+.now h4{
+	padding-top: 14px;
+	padding-bottom: 14px;
+	font-size: 18px;
+}
+.now .now-text{
+	text-align: left;
+	padding: 14px;
+}
+footer{
+	margin-top: 42px;
+	padding-top: 49px;
+	padding-bottom: 49px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+footer a{
+	color: #453F4D;
 }
 /* Responsive */
 
