@@ -22,7 +22,11 @@
 	<header class="bg-lightblack">
 		<div class="contenedor">
 			<img src="image/header-logo.png" alt="Flatness title" name="Flatness">
-			<nav>
+			<input type="checkbox" id="menu-bar" class="checkbox">
+			<label for="menu-bar">
+				<i class="fa fa-bars"></i>
+			</label>
+			<nav class="colapse">
 				<ul>
 					<li><a href="#" name="Flatness">LIFESTYLE</a></li>
 					<li><a href="#" name="Flatness">FLOWERS</a></li>
@@ -94,9 +98,9 @@
 				</div>
 
 				<!--ABOUT ME -->
-				<div class="col-5">
+				<div class="col-5 hiddenzone">
 					<div class="bg-lightblack input">
-						<input type="text" name=" Flatness search" placeholder="Search">
+						<input type="text" name=" Flatness search" class="search" placeholder="Search">
 					</div>
 					<div class="bg-lightblack aboutme">
 						<h4 class="mango txt-about">About Me</h4>
